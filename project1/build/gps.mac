@@ -1,0 +1,22 @@
+# Macro file for the initialization of project1
+# in interactive session
+
+/run/initialize
+/run/verbose 2
+/control/verbose 0
+/tracking/verbose 0
+/event/verbose 0
+/gps/particle e-
+/gps/pos/type Plane
+/gps/pos/shape Square
+/gps/pos/centre 1 2 1 cm
+/gps/pos/halfx 2 cm
+/gps/pos/halfy 2 cm
+/gps/ang/type cos
+/gps/ene/type Lin
+/gps/ene/min 2 keV
+/gps/ene/max 1 GeV
+/gps/ene/gradient 1
+/gps/ene/intercept/ 1
+/run/beamOn 10000
+#/gps/List

@@ -1,0 +1,19 @@
+/run/initialize
+/run/verbose 2
+/control/verbose 0
+/tracking/verbose 0
+/event/verbose 0
+/gps/particle gamma
+/gps/pos/type Plane
+/gps/pos/shape Square
+/gps/pos/centre 10 20 10 cm
+/gps/pos/halfx 20 cm
+/gps/pos/halfy 20 cm
+/gps/ang/type cos
+/gps/ene/type Lin
+/gps/ene/min 2 keV
+/gps/ene/max 1 GeV
+/gps/ang/mintheta 100. deg
+/gps/ang/maxphi
+/gps/ang/type iso
+/run/beamOn 25
